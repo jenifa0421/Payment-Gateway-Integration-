@@ -5,7 +5,7 @@
  $num=$_POST['pnum'];
  include "src/Instamojo.php";
 
- $api = new Instamojo\Instamojo("test_de6a0b139d4f15f3b153c11296e", "test_d129654f2b7d67ea8caf0b97e03", 'https://test.instamojo.com/api/1.1/');	   
+ $api = new Instamojo\Instamojo("", "", '');	   
 		   
 try {
     $response = $api->paymentRequestCreate(array(
